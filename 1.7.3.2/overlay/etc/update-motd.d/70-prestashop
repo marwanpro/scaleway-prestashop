@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cat <<EOF
+
+Prestashop is installed in /var/www/html/.
+EOF
+
+cat /usr/share/doc/scaleway/prestashop/README 2>/dev/null

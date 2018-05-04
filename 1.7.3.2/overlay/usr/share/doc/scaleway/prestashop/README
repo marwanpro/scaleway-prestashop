@@ -1,0 +1,10 @@
+If this is the first time you launch your prestashop image, you'll need to
+configure it!
+
+In order to do so, go to http://<your_ip> and use those credentials for your
+database :
+  - user : prestashop
+  - password : <db_password>
+
+After the installation is done, don't forget to delete the "install" folder!
+  sudo rm -r /var/www/html/install/
