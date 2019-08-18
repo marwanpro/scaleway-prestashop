@@ -16,4 +16,6 @@ password = $password
 EOF
 
     echo "CREATE DATABASE $dbname" | mysql -u $username -p$password
+    systemctl enable mysql.service
+    systemctl start mysql.service
 fi
